@@ -1,0 +1,157 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} VIP Section {% endblock %}
+
+{% block content %}
+
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">Global Cash Services VIP section.</div>
+      <br><br>
+      <div class="media-body">
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+    </div>
+  </div>
+</header>
+
+<!-- Services -->
+<section class="page-section" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">GCS VIP Section.</h2>
+        <h3 class="section-subheading text-muted">GLOBAL CASH SERVICES (GCS).</h3>
+        <h5 class="section-subheading text-muted">Global Cash Services acts as a business consultant to self employed individuals and young entrepreneurs, We solve business problems.</h5>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Diversification strategies</h4>
+        <p class="text-muted">We have the dream of growing and so. Also,
+                              we are currently doing interviews in stores and shop owners to have better information about business. </p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Follow Up Services</h4>
+        <p class="text-muted"> We would definitely open offices in the different regions of Cameroon to ease the work. 
+        One of our aim is to create different businesses to keep the youths busy.</p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Mastering of business</h4>
+        <p class="text-muted">Having in mind poverty is a social malaise and so reducing it by employing the youths. We would create a forum to teach youths on business.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="page-section" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">GLOBAL CASH NETWORK MARKET</h2>
+        <h3 class="section-subheading text-muted">GCNM</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src={% static "images/global.jpeg"%} alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Stage 1 (2500frs)</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">You need to add at least three person and each person will deposit atleast five hundred francs in your account, which means adding three persons,you will have at least six thousand francs.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src={% static "images/global.jpeg"%} alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Stage 2 (5000frs)</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Here, you need two persons to qualify to stage three.After adding,you will receive at least ten thousand francs.</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src={% static "images/global.jpeg"%} alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Stage 3 (7500frs)</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">You need to add three persons to qualify to stage four making thirty thousand francs in your account.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src={% static "images/global.jpeg"%} alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Stage 4 (10,000frs)</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">You need to add two persons to get to stage five which is the last.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src={% static "images/global.jpeg"%} alt=""> 
+              <br><br>
+              <div class="timeline-body">
+                <p class="text-muted">Global Cash! Let's Combat Unemployment.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="{% static 'js/jqBootstrapValidation.js' %}" ></script>
+  <script src="{% static 'js/contact_me.js' %}" ></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{% static 'js/agency.min.js' %}" ></script>
+
+
+{% endblock %}

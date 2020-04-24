@@ -1,0 +1,72 @@
+------> No module named 'Friends'.
+------> No module nameed 'crispy_forms'.
+
+-----> Need to make a logo for the website.
+-----> Need to put the Notification for Friend request in a navbar.
+-----> why not make my computer a server
+
+====================================================================
+
+
+<nb-card accent="primary">
+        <nb-card-header>
+            Formulaire de Recharge
+        </nb-card-header>
+        <nb-card-body class="example-items-col">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <label>
+            Montant
+          </label>
+          <input type="number" nbInput fullWidth placeholder="Montant">
+        </div>
+        <div class="col-lg-6">
+          <label>
+            Operateur
+          </label>
+          <nb-select  input type="text" fullWidth placeholder="Operateur">
+            <nb-option value=""><img src="../../../assets/images/Orange-Money-300x247.jpg" style="width:7%;">  &nbsp; ORANGE</nb-option>
+            <nb-option value="0"><img src="../../../assets/images/mobile-money.jpg" style="width:7%;">  &nbsp; MTN</nb-option>
+            <nb-option value="0"><img src="../../assets/images/uba.png" style="width:7%;">  &nbsp; UBA</nb-option>
+          </nb-select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <label>
+            Code
+          </label>
+          <input type="text" nbInput fullWidth placeholder="Code de recharge">
+          <label>Rensigner dans le champ votre code de recharge</label>
+
+        </div>
+        <div class="col-lg-6">
+        </div>
+      </div>
+        </nb-card-body>
+        <nb-card-footer>
+          <div class="d-flex justify-content-end">
+              <button nbButton status="primary" outline> Confirmer</button>
+          </div>
+      </nb-card-footer>
+      </nb-card>
+
+errors encountered------TypeError: __init__() missing 1 required positional argument: 'on_delete'
+
+
+[18:42, 4/16/2020] Lucha: I'm thinking of creating a vip section under global cash network market...that it it would begin with 2500
+[18:42, 4/16/2020] Lucha: GLOBAL CASH SERVICES. 
+      We have the dream of growing so we would creat a forum to teach youths on business. 
+   We are currently doing interviews,we interview shop and stall owners to have better information about business. 
+     We would definitely open offices in the different regions of cameroon to ease the work
+      Having in mind poverty is a social malaise we aim of reducing it by employing the youths n praying the Government reduce the tax
+     One of our aim is to creat different businesses to keep the youths busy
+
+     
+[18:42, 4/16/2020] Lucha: GLOBAL CASH NETWORK MARKET (GCNM)
+     We ought to creat a Vip section for people we want high pay.It goes thus
+     Stage 1(2500) this is the first stage and most comprehensive.Any 3ppl u add,u gain 2500 and so on
+   Stage 2(5000) here u need to add at least three people to have 5000 and so on
+       Stage 3(7500).Each three people u add,u gain 7500
+Stage 4(10000) you need 3ppl to gain 10000

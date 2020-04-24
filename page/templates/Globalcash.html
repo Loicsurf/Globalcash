@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load  static %}
+
+{% block title %}Welcome to Global Cash Services{% endblock %}
+
+{% block content %}
+
+
+  <!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">Welcome To Global Cash Services!</div>
+      <div class="media-body">
+      <img class="rounded-circle account-img" src="{{ user.profile.image.url }}">
+        <h2 class="account-heading">{{ user.username }}</h2>
+        <p class="text-secondary">{{ user.email }}</p>
+      </div>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{% url 'services' %}">Tell Me More</a>
+    </div>
+  </div>
+</header>
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="{% static 'js/jqBootstrapValidation.js' %}" ></script>
+  <script src="{% static 'js/contact_me.js' %}" ></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{% static 'js/agency.min.js' %}" ></script>
+
+</body>
+
+</html>
+
+{% endblock %}
